@@ -21,11 +21,11 @@ def main():
 	# Define Win 10 rules based on the following format:
 	# <localhost ip> <www.website.tld> <website.tld>
 	rule_list = [
-	'127.0.0.1 news.ycombinator.com',
-	'127.0.0.1 www.reddit.com reddit.com',
-	'127.0.0.1 www.twitter.com twitter.com',
-	'127.0.0.1 www.twitch.tv twitch.tv',
-	'127.0.0.1 www.youtube.com youtube.com'
+		'127.0.0.1 news.ycombinator.com',
+		'127.0.0.1 www.reddit.com reddit.com',
+		'127.0.0.1 www.twitter.com twitter.com',
+		'127.0.0.1 www.twitch.tv twitch.tv',
+		'127.0.0.1 www.youtube.com youtube.com'
 	]
 
 	# Open 'hosts' file
