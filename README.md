@@ -2,6 +2,8 @@
 
 Adds and/or removes rules in the Windows 'hosts' file in order to block/unblock a list of defined domains. Originally written to prevent impulse clicking on social media. Must be run as admin in order to read/write the 'hosts' file (resides within system32 folder).
 
+> Note: This script will not work properly if your web browser is using DNS over HTTPS.
+
 ## Usage
 
 This can be run as a standalone script or it can be scheduled to be run so that any defined sites are blocked for a given time frame (e.g., run script at 9 AM at start of work hours and then again at 5 PM when you're done).
