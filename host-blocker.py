@@ -23,9 +23,9 @@ def main():
 	rule_list = [
 		'127.0.0.1 news.ycombinator.com',			# Single subdomain entry.
 		'127.0.0.1 reddit.com www.reddit.com old.reddit.com'	# Multiple subdomain entries plus primary domain entry.
-		'127.0.0.1 www.twitter.com twitter.com',		# Single domain entry.
-		'127.0.0.1 www.twitch.tv twitch.tv',
-		'127.0.0.1 www.youtube.com youtube.com'
+		'127.0.0.1 twitter.com www.twitter.com',		# Single domain entry.
+		'127.0.0.1 twitch.tv www.twitch.tv',
+		'127.0.0.1 youtube.com www.youtube.com'
 	]
 
 	# Open 'hosts' file
