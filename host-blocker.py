@@ -21,9 +21,9 @@ def main():
 	# Define Win 10 rules based on the following format:
 	# <localhost ip> <www.website.tld> <website.tld>
 	rule_list = [
-		'127.0.0.1 news.ycombinator.com',
-		'127.0.0.1 www.reddit.com reddit.com',
-		'127.0.0.1 www.twitter.com twitter.com',
+		'127.0.0.1 news.ycombinator.com',			# Single subdomain entry.
+		'127.0.0.1 reddit.com www.reddit.com old.reddit.com'	# Multiple subdomain entries plus primary domain entry.
+		'127.0.0.1 www.twitter.com twitter.com',		# Single domain entry.
 		'127.0.0.1 www.twitch.tv twitch.tv',
 		'127.0.0.1 www.youtube.com youtube.com'
 	]
