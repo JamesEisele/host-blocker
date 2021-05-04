@@ -19,7 +19,7 @@ def main():
 	header = '# host-blocker.py entries'
 	
 	# Define Win 10 rules based on the following format:
-	# <localhost ip> <www.website.tld> <website.tld>
+	# <localhost ip> <example.com> <www.example.com> <sub1.example.com>
 	rule_list = [
 		'127.0.0.1 news.ycombinator.com',			# Single subdomain entry.
 		'127.0.0.1 reddit.com www.reddit.com old.reddit.com'	# Multiple subdomain entries plus primary domain entry.
